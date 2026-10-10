@@ -1,0 +1,149 @@
+{
+  "general": {
+    "siteName": "DailyBibleFuel",
+    "slogan": "Fill Up with Emmanuel",
+    "phone": "+91 8019-777-939",
+    "phoneRaw": "+918019777939",
+    "emailHello": "hello@dailybiblefuel.com",
+    "emailInfo": "info@dailybiblefuel.com",
+    "instagram": "https://www.instagram.com/dailybiblefuel",
+    "youtube": "https://www.youtube.com/@DailyBibleFuel-tv",
+    "whatsapp": "https://wa.me/918019777939",
+    "address": "DailyBibleFuel Ministry, India",
+    "announcementText": "✨ Free Delivery on Badge Bundles above ₹299 | Call or WhatsApp: +91 8019-777-939",
+    "storeBrand": "TrueMark Merch"
+  },
+  "home": {
+    "heroBadge": "🕊️ Fill Up with Emmanuel",
+    "heroTitle": "Fuel Your Faith Daily",
+    "heroSubtitle": "Daily Bible verses, devotionals, and kids learning — all in one place. Quiet reflections and multilingual worship to nurture your spiritual walk every single dawn.",
+    "primaryCtaText": "Read Today's Verse",
+    "primaryCtaLink": "daily-verse.html",
+    "secondaryCtaText": "Explore Devotionals",
+    "secondaryCtaLink": "videos-messages.html",
+    "heroStatNumber": "15,000+ Believers",
+    "heroStatText": "reading today in English & Telugu",
+    "heroCardBadge": "Morning Scripture Focus",
+    "heroCardSubtitle": "Today's Grace",
+    "heroAudioTitle": "Audio Meditation",
+    "heroAudioSubtitle": "3 min listen • Rev. John",
+    "quoteText": "“Every day is a new invitation to encounter God, grow in His truth, and walk in His love.”",
+    "founderName": "Udaysree Gurajada",
+    "founderTitle": "Founder, Daily Bible Fuel Ministry",
+    "founderImage": "assets/images/founder.jpeg",
+    "pathwaysTag": "Ministry Pathways",
+    "pathwaysTitle": "Go Deeper in God’s Word",
+    "pathwaysSubtitle": "Explore structured spiritual devotionals, praise lyrics in two tongues, and enriching materials for every stage of your walk.",
+    "badgesTag": "Official TrueMark Merch",
+    "badgesTitle": "Featured Christian Badges",
+    "badgesLinkText": "View All Badges & Pins",
+    "aboutTag": "About DailyBibleFuel",
+    "aboutTitle": "Helping You Grow Closer to God Every Day",
+    "aboutLead": "Daily Bible Fuel is a place where God’s Word comes alive in your everyday life.",
+    "aboutDescription": "Through daily devotionals, Bible insights, worship reflections, and kids' content, we help you build a deeper relationship with God — one day at a time. Whether you seek morning fortitude or quiet evening praise, our multilingual ministry stands beside you.",
+    "aboutStat1Number": "365+",
+    "aboutStat1Label": "Annual devotional guides in English & Telugu",
+    "aboutStat2Number": "100% Free",
+    "aboutStat2Label": "Faith resources accessible to believers worldwide",
+    "aboutImage": "https://lh3.googleusercontent.com/aida-public/AB6AXuB6Kh7JzZw2b-9QHP4fQe0r_Yde-XGbE0ETMj2IY1lgJzMrCmjzjeuwrgGipfGA7-ZmAj2GGOiTlXNFRKTe1lLys_hwgG5ZskwtO-MoBZhDXO_H43p-f_TARGrdxHFfaaHdN8dk9U2kQZ6RFLG3GmraB6dghm0Ams1xeN3Bbn5iR_xAhX8NNC2cytEfQJqaBW5eBSM9kwh4sPBZO2p1q-v2G00V8FczOL8uXkIBeQc",
+    "aboutCtaText": "Read Today's Devotional",
+    "aboutCtaLink": "daily-verse.html",
+    "ctaBannerTag": "We Are Here For You",
+    "ctaBannerTitle": "Whether you need prayer, guidance, or encouragement, we’re here to support you in your walk with God.",
+    "ctaBannerSubtitle": "Our prayer team intercedes daily for your requests. Reach out via telephone or send our pastoral team a confidential note.",
+    "ctaBannerBtn1Text": "Reach Out",
+    "ctaBannerBtn1Link": "contact-us.html",
+    "ctaBannerBtn2Text": "+91 8019-777-939",
+    "ctaBannerBtn2Link": "tel:+918019777939",
+    "ctaBannerBgImage": "https://lh3.googleusercontent.com/aida-public/AB6AXuBqEx-EUGQ3p9tQFEZG5vcLhHphpOLRYxrdYrPG7ECmouInsG17kBUFujXe2hybsMxteAU4Tx1onXHWXoi-JQ_dHAhlVKfpp36kKq00EW2l2b1pDxBALHKhErGub0Mp4KiPw4pbIyvl1FU_IzDqAM030Zt4nH3gLsCoPyeFEBLSZ35pIClbmUW3wPGONEynUuit3AGU1Gz8U2tltZPmuutiHEQO6AWyeJFT8gF1BMs"
+  },
+  "dailyVerse": {
+    "reference": "John 14:27",
+    "verseEnglish": "Peace I leave with you; my peace I give to you. Not as the world gives do I give to you. Let not your hearts be troubled, neither let them be afraid.",
+    "verseTelugu": "శాంతిని మీకు విడిచిపోవుచున్నాను; నా శాంతినే మీకు ఇచ్చుచున్నాను. లోకమిచ్చునట్లుగా నేను మీకు ఇవ్వడము లేదు. మీ హృదయమును కలవరపడనియ్యకుడి, వెరవనియ్యకుడి.",
+    "theme": "Supernatural Peace in Any Storm",
+    "keyTakeaways": [
+      "Christ's peace is not dependent on circumstances or worldly wealth.",
+      "His peace anchors the believer against fear, distress, and confusion.",
+      "We receive this divine peace freely through prayer, trust, and surrender."
+    ],
+    "reflection": "The peace Jesus offers is not merely the absence of trouble; it is His living presence in the midst of every storm. While worldly peace is fragile and conditional, Jesus gives us an unchanging foundation. When anxiety strikes, anchor your mind on this truth: Emmanuel is with you.",
+    "prayer": "Lord Jesus, thank You for Your gift of perfect peace. In moments of uncertainty, anxiety, and fear, quiet my soul with the assurance of Your presence. Guard my heart and mind, and let Your peace reign in every area of my life. Amen.",
+    "recentVerses": [
+      {
+        "ref": "Job 22:21",
+        "text": "Agree with God, and be at peace; thereby good will come to you."
+      },
+      {
+        "ref": "Numbers 6:26",
+        "text": "The LORD lift up his countenance upon you and give you peace."
+      },
+      {
+        "ref": "Philippians 4:7",
+        "text": "And the peace of God, which surpasses all understanding, will guard your hearts and your minds in Christ Jesus."
+      },
+      {
+        "ref": "Galatians 5:22",
+        "text": "The fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faithfulness..."
+      },
+      {
+        "ref": "Hebrews 12:14",
+        "text": "Strive for peace with everyone, and for the holiness without which no one will see the Lord."
+      }
+    ]
+  },
+  "videos": {
+    "heroTitle": "Sermons & Messages",
+    "heroSubtitle": "Explore spirit-filled sermons and devotional series from DailyBibleFuel to strengthen your walk with Christ.",
+    "featured": [
+      {
+        "id": "vid-1",
+        "title": "Faith & Life Devotional Series: Walking in His Promises",
+        "series": "Faith & Life",
+        "youtubeId": "ysz5S6PUM-U",
+        "duration": "14:25",
+        "speaker": "DailyBibleFuel Teaching Team",
+        "description": "Discover how trusting God in small everyday steps unlocks His supernatural power and favor in your life."
+      },
+      {
+        "id": "vid-2",
+        "title": "The Parables of Jesus: Unlocking the Mysteries of the Kingdom",
+        "series": "Parables of Jesus",
+        "youtubeId": "jNQXAC9IVRw",
+        "duration": "18:40",
+        "speaker": "DailyBibleFuel Teaching Team",
+        "description": "An in-depth study into the rich spiritual meanings behind the Parable of the Sower and the Prodigal Son."
+      },
+      {
+        "id": "vid-3",
+        "title": "The Names of God: Jehovah Jireh, The Lord Our Provider",
+        "series": "Names of God",
+        "youtubeId": "L_LUpnjgPso",
+        "duration": "16:10",
+        "speaker": "DailyBibleFuel Teaching Team",
+        "description": "Understanding who God is through His biblical names and resting safely in His eternal covenant."
+      },
+      {
+        "id": "vid-4",
+        "title": "Resurrection Power: Victory Over Fear and Death",
+        "series": "Resurrection Power",
+        "youtubeId": "ScMzIvxBSi4",
+        "duration": "22:15",
+        "speaker": "DailyBibleFuel Teaching Team",
+        "description": "Christ has triumphed over all darkness. Learn to operate in the resurrection life given to every believer."
+      }
+    ]
+  },
+  "startNewLife": {
+    "heroTitle": "Start a New Life with Jesus",
+    "heroSubtitle": "This Could Be Your New Beginning. You’ve felt something in your heart… This is not a coincidence. God is calling you right now.",
+    "theTruthPoints": [
+      "We are all separated from God because of sin (Romans 3:23).",
+      "We cannot fix or save ourselves by good works (Ephesians 2:8-9).",
+      "Jesus died on the cross and rose again to give us brand new life (Romans 5:8)."
+    ],
+    "keyScripture": "John 3:3 — “Unless one is born again, he cannot see the kingdom of God.”",
+    "sinnersPrayer": "Lord Jesus,\nI know I am a sinner.\nPlease forgive my sins.\nCome into my life.\nChange my heart.\nFrom today, I choose to follow You.\nI surrender my life to You.\nAmen.",
+    "supportPhone": "+91 8019-777-939"
+  }
+}

@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Videos &amp; Messages - Multimedia Sanctuary | DailyBibleFuel</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Noto+Sans+Telugu:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "surface-container-lowest": "#ffffff",
+            "background": "#f7f9ff",
+            "deep-navy-dark": "#0F2642",
+            "sacred-crimson": "#D32F2F",
+            "sacred-crimson-hover": "#B71C1C",
+            "error": "#ba1a1a",
+            "outline": "#73777f",
+            "secondary": "#006494",
+            "on-secondary": "#ffffff",
+            "on-primary": "#ffffff",
+            "tertiary-container": "#79000a",
+            "on-surface": "#101d28",
+            "celestial-sky": "#1DA1E8",
+            "parchment-surface": "#FFFFFF",
+            "surface": "#f7f9ff",
+            "deep-navy": "#163A63",
+            "on-surface-variant": "#43474e",
+            "outline-variant": "#c3c6d0",
+            "surface-container-low": "#ecf4ff",
+            "secondary-container": "#43b7ff",
+            "surface-container-high": "#dceaf9",
+            "surface-container": "#e2efff",
+            "border-warm": "#E8E2D9",
+            "primary-container": "#163a63",
+            "parchment-subtle": "#F3EFEA",
+            "parchment-base": "#FAF8F5",
+            "gold-accent": "#D4A359",
+            "celestial-mist": "#EBF6FC",
+            "surface-container-highest": "#d6e4f3",
+            "primary": "#002447"
+          },
+          fontFamily: {
+            sans: ["Poppins", "sans-serif"],
+            "scripture-verse": ["Poppins", "serif"],
+            "headline-sm": ["Poppins", "sans-serif"],
+            "headline-md": ["Poppins", "sans-serif"],
+            "headline-lg": ["Poppins", "sans-serif"],
+            "display": ["Poppins", "sans-serif"],
+            "body-sm": ["Poppins", "sans-serif"],
+            "body-md": ["Poppins", "sans-serif"],
+            "body-lg": ["Poppins", "sans-serif"],
+            "label-md": ["Poppins", "sans-serif"],
+            "label-lg": ["Poppins", "sans-serif"],
+            "label-caps": ["Poppins", "sans-serif"],
+            "telugu": ["Noto Sans Telugu", "Poppins", "sans-serif"]
+          }
+        }
+      }
+    };
+  </script>
+  
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    *, html, body, h1, h2, h3, h4, h5, h6, p, span, a, button, input, label, blockquote, div {
+      font-family: 'Poppins', sans-serif !important;
+    }
+    .material-symbols-outlined {
+      font-family: 'Material Symbols Outlined' !important;
+    }
+    .font-telugu {
+      font-family: 'Noto Sans Telugu', 'Poppins', sans-serif !important;
+    }
+  </style>
+</head>
+<body class="bg-parchment-base font-body-md text-on-surface antialiased">
+
+  <!-- ================= TOP ANNOUNCEMENT BAR ================= -->
+  <div class="bg-celestial-mist/70 border-b border-border-warm/40 px-4 md:px-8 py-1.5 hidden md:block">
+    <div class="max-w-7xl mx-auto flex items-center justify-between text-on-surface-variant font-label-caps text-xs">
+      <div class="flex items-center gap-3">
+        <span class="material-symbols-outlined text-secondary text-[16px]">phone_in_talk</span>
+        <span>Prayer &amp; Helpline Support:</span>
+        <a class="text-secondary hover:text-deep-navy font-semibold transition-colors" href="tel:+918019777939">+91 8019-777-939</a>
+      </div>
+      <div class="flex items-center gap-4">
+        <span>Telugu &amp; English Scripture Fellowship</span>
+        <span class="inline-block w-1.5 h-1.5 rounded-full bg-gold-accent"></span>
+        <span>Daily Devotionals &amp; Praise</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= MAIN HEADER NAVIGATION ================= -->
+  <header class="sticky top-0 z-50 bg-parchment-surface/95 backdrop-blur-md shadow-sm border-b border-border-warm/60">
+    <div class="max-w-7xl mx-auto px-4 md:px-8 h-20 flex items-center justify-between gap-4">
+      
+      <!-- Brand Logo -->
+      <a href="index.html" class="flex items-center gap-3 flex-shrink-0 group">
+        <img alt="DailyBibleFuel Logo" class="h-10 w-auto object-contain transition-transform group-hover:scale-105" src="assets/images/logo.jpeg" onerror="this.src='assets/images/logo.png'">
+        <span class="font-headline-sm text-xl md:text-2xl text-primary font-bold tracking-tight">DailyBibleFuel</span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="hidden xl:flex items-center gap-6 font-label-md text-sm text-on-surface-variant">
+        <a href="index.html" class="hover:text-deep-navy transition-colors py-2">Home</a>
+
+        <!-- Devotionals Dropdown (Active) -->
+        <div class="relative group py-2">
+          <button class="flex items-center gap-1 text-sacred-crimson font-bold border-b-2 border-sacred-crimson py-1 focus:outline-none">
+            <span>Devotionals</span>
+            <span class="material-symbols-outlined text-[16px] transition-transform group-hover:rotate-180">expand_more</span>
+          </button>
+          <div class="absolute top-full left-0 hidden group-hover:flex flex-col bg-surface-container-lowest rounded-xl shadow-xl border border-border-warm py-2 w-56 z-50">
+            <a class="px-4 py-2.5 hover:bg-surface-container-low text-on-surface transition-colors font-body-sm flex items-center gap-2" href="daily-verse.html">
+              <span class="material-symbols-outlined text-secondary text-[18px]">auto_stories</span>
+              <span>Daily Verse</span>
+            </a>
+            <a class="px-4 py-2.5 bg-surface-container-low text-sacred-crimson font-bold font-body-sm flex items-center gap-2" href="videos-messages.html">
+              <span class="material-symbols-outlined text-sacred-crimson text-[18px]">play_circle</span>
+              <span>Videos / Messages</span>
+            </a>
+            <a class="px-4 py-2.5 hover:bg-surface-container-low text-on-surface transition-colors font-body-sm flex items-center gap-2" href="bible-quiz.html">
+              <span class="material-symbols-outlined text-gold-accent text-[18px]">quiz</span>
+              <span>Bible Quiz</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Worship Dropdown -->
+        <div class="relative group py-2">
+          <button class="flex items-center gap-1 text-on-surface-variant group-hover:text-deep-navy font-semibold transition-colors py-1 focus:outline-none">
+            <span>Worship</span>
+            <span class="material-symbols-outlined text-[16px] transition-transform group-hover:rotate-180">expand_more</span>
+          </button>
+          <div class="absolute top-full left-0 hidden group-hover:flex flex-col bg-surface-container-lowest rounded-xl shadow-xl border border-border-warm py-2 w-60 z-50">
+            <a class="px-4 py-2.5 hover:bg-surface-container-low text-on-surface transition-colors font-body-sm flex items-center gap-2" href="english-worship-lyrics.html">
+              <span class="material-symbols-outlined text-secondary text-[18px]">music_note</span>
+              <span>English Worship Lyrics</span>
+            </a>
+            <a class="px-4 py-2.5 hover:bg-surface-container-low text-on-surface transition-colors font-body-sm flex items-center gap-2" href="telugu-worship-lyrics.html">
+              <span class="material-symbols-outlined text-gold-accent text-[18px]">queue_music</span>
+              <span>Telugu Worship Lyrics</span>
+            </a>
+          </div>
+        </div>
+
+        <a class="hover:text-deep-navy transition-colors py-2 whitespace-nowrap" href="start-a-new-life-with-jesus.html">Start a New Life with Jesus</a>
+        <a class="hover:text-deep-navy transition-colors py-2" href="contact-us.html">Contact Us</a>
+
+        <!-- Shop Dropdown -->
+        <div class="relative group py-2">
+          <button class="flex items-center gap-1 text-on-surface-variant group-hover:text-deep-navy font-semibold transition-colors py-1 focus:outline-none">
+            <span>Shop</span>
+            <span class="material-symbols-outlined text-[16px] transition-transform group-hover:rotate-180">expand_more</span>
+          </button>
+          <div class="absolute top-full left-0 hidden group-hover:flex flex-col bg-surface-container-lowest rounded-xl shadow-xl border border-border-warm py-2 w-52 z-50">
+            <a class="px-4 py-2.5 hover:bg-surface-container-low text-on-surface transition-colors font-body-sm flex items-center gap-2" href="shop.html?category=badges">
+              <span class="material-symbols-outlined text-sacred-crimson text-[18px]">shield</span>
+              <span>Christian Badges</span>
+            </a>
+            <a class="px-4 py-2.5 hover:bg-surface-container-low text-on-surface transition-colors font-body-sm flex items-center gap-2" href="shop.html">
+              <span class="material-symbols-outlined text-secondary text-[18px]">storefront</span>
+              <span>All Faith Resources</span>
+            </a>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Action Cluster -->
+      <div class="flex items-center gap-3">
+        <a href="daily-verse.html" class="hidden sm:inline-flex items-center justify-center h-11 px-5 bg-sacred-crimson hover:bg-sacred-crimson-hover text-on-primary font-semibold text-sm rounded-lg shadow-sm transition-all">
+          Today's Verse
+        </a>
+
+        <!-- Global Cart Button -->
+        <button onclick="openCartDrawer()" class="relative p-2.5 rounded-full bg-surface-container hover:bg-surface-container-high text-deep-navy transition-colors" title="View Cart">
+          <span class="material-symbols-outlined text-[22px]">shopping_bag</span>
+          <span class="cart-badge-count absolute -top-1 -right-1 w-5 h-5 bg-sacred-crimson text-white rounded-full text-xs font-bold items-center justify-center hidden">0</span>
+        </button>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button id="mobile-menu-toggle" onclick="window.toggleMobileMenu()" class="xl:hidden p-2.5 rounded-lg bg-surface-container hover:bg-surface-container-high text-deep-navy transition-colors focus:outline-none" aria-label="Toggle navigation menu">
+          <span class="material-symbols-outlined text-[26px]">menu</span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ================= MOBILE / TABLET DRAWER NAVIGATION ================= -->
+  <div id="mobile-drawer" class="fixed inset-0 z-50 pointer-events-none transition-all duration-300">
+    <div id="mobile-drawer-backdrop" onclick="window.closeMobileMenu()" class="fixed inset-0 bg-deep-navy/60 backdrop-blur-sm opacity-0 transition-opacity duration-300 pointer-events-auto"></div>
+    <div id="mobile-drawer-panel" class="fixed top-0 right-0 bottom-0 w-80 max-w-[85vw] bg-parchment-surface shadow-2xl flex flex-col justify-between transform translate-x-full transition-transform duration-300 pointer-events-auto overflow-y-auto">
+      <div class="p-5 border-b border-border-warm flex items-center justify-between bg-celestial-mist/40">
+        <div class="flex items-center gap-2.5">
+          <img alt="DailyBibleFuel Logo" class="h-8 w-auto object-contain" src="assets/images/logo.png">
+          <span class="font-headline-sm text-lg text-primary font-bold">DailyBibleFuel</span>
+        </div>
+        <button id="mobile-drawer-close" onclick="window.closeMobileMenu()" class="p-2 rounded-lg text-on-surface-variant hover:text-deep-navy hover:bg-surface-container" aria-label="Close menu">
+          <span class="material-symbols-outlined text-[24px]">close</span>
+        </button>
+      </div>
+
+    <div class="flex-1 overflow-y-auto p-5 space-y-3 font-medium text-sm">
+      <a href="index.html" class="flex items-center gap-3 p-3 rounded-lg hover:bg-surface-container text-on-surface">
+        <span class="material-symbols-outlined text-[20px]">home</span>
+        <span>Home</span>
+      </a>
+
+      <!-- Devotionals Accordion -->
+      <div class="space-y-1">
+        <button class="mobile-submenu-toggle w-full flex items-center justify-between p-3 rounded-lg bg-surface-container-low text-sacred-crimson font-bold">
+          <div class="flex items-center gap-3">
+            <span class="material-symbols-outlined text-[20px] text-sacred-crimson">menu_book</span>
+            <span>Devotionals</span>
+          </div>
+          <span class="material-symbols-outlined submenu-arrow text-[18px] transition-transform rotate-180">expand_more</span>
+        </button>
+        <div class="pl-9 pr-2 space-y-1">
+          <a href="daily-verse.html" class="block p-2 rounded hover:bg-surface-container text-on-surface-variant text-xs">Daily Verse</a>
+          <a href="videos-messages.html" class="block p-2 rounded bg-surface-container text-sacred-crimson font-bold text-xs">Videos / Messages</a>
+          <a href="bible-quiz.html" class="block p-2 rounded hover:bg-surface-container text-on-surface-variant text-xs">Bible Quiz</a>
+        </div>
+      </div>
+
+      <!-- Worship Accordion -->
+      <div class="space-y-1">
+        <button class="mobile-submenu-toggle w-full flex items-center justify-between p-3 rounded-lg hover:bg-surface-container text-on-surface">
+          <div class="flex items-center gap-3">
+            <span class="material-symbols-outlined text-[20px] text-secondary">music_note</span>
+            <span>Worship</span>
+          </div>
+          <span class="material-symbols-outlined submenu-arrow text-[18px] transition-transform">expand_more</span>
+        </button>
+        <div class="pl-9 pr-2 space-y-1 hidden">
+          <a href="english-worship-lyrics.html" class="block p-2 rounded hover:bg-surface-container text-on-surface-variant text-xs">English Worship Lyrics</a>
+          <a href="telugu-worship-lyrics.html" class="block p-2 rounded hover:bg-surface-container text-on-surface-variant text-xs">Telugu Worship Lyrics</a>
+        </div>
+      </div>
+
+      <a href="start-a-new-life-with-jesus.html" class="flex items-center gap-3 p-3 rounded-lg hover:bg-surface-container text-on-surface">
+        <span class="material-symbols-outlined text-[20px] text-gold-accent">favorite</span>
+        <span>Start a New Life with Jesus</span>
+      </a>
+
+      <a href="contact-us.html" class="flex items-center gap-3 p-3 rounded-lg hover:bg-surface-container text-on-surface">
+        <span class="material-symbols-outlined text-[20px] text-secondary">support_agent</span>
+        <span>Contact Us</span>
+      </a>
+
+      <div class="space-y-1">
+        <button class="mobile-submenu-toggle w-full flex items-center justify-between p-3 rounded-lg hover:bg-surface-container text-on-surface">
+          <div class="flex items-center gap-3">
+            <span class="material-symbols-outlined text-[20px] text-deep-navy">shopping_bag</span>
+            <span>Shop</span>
+          </div>
+          <span class="material-symbols-outlined submenu-arrow text-[18px] transition-transform">expand_more</span>
+        </button>
+        <div class="pl-9 pr-2 space-y-1 hidden">
+          <a href="shop.html?category=badges" class="block p-2 rounded hover:bg-surface-container text-on-surface-variant text-xs font-semibold text-sacred-crimson">Christian Badges</a>
+          <a href="shop.html" class="block p-2 rounded hover:bg-surface-container text-on-surface-variant text-xs">All Products</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="p-5 border-t border-border-warm bg-parchment-base space-y-3">
+      <a href="tel:+918019777939" class="w-full py-2.5 px-4 rounded-lg bg-surface-container text-deep-navy font-semibold text-center text-xs flex items-center justify-center gap-2">
+        <span class="material-symbols-outlined text-[16px]">call</span>
+        <span>Helpline: +91 8019-777-939</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+  <!-- ================= GLOBAL CART SLIDE-OVER DRAWER ================= -->
+  <div id="global-cart-drawer" class="fixed inset-0 z-50 hidden">
+    <div class="absolute inset-0 bg-black/50 backdrop-blur-xs transition-opacity" onclick="closeCartDrawer()"></div>
+    <div class="absolute inset-y-0 right-0 max-w-full flex pl-10">
+      <div class="w-screen max-w-md bg-parchment-surface shadow-2xl flex flex-col">
+        <div class="p-5 border-b border-border-warm flex items-center justify-between bg-celestial-mist/40">
+          <div class="flex items-center gap-2">
+            <span class="material-symbols-outlined text-deep-navy">shopping_bag</span>
+            <h3 class="font-headline-sm text-lg font-bold text-deep-navy">Your Truemark Cart</h3>
+          </div>
+          <button onclick="closeCartDrawer()" class="p-2 rounded-lg text-on-surface-variant hover:text-deep-navy">
+            <span class="material-symbols-outlined">close</span>
+          </button>
+        </div>
+        <div class="bg-surface-container-low px-5 py-2.5 text-xs text-deep-navy flex items-center justify-between border-b border-border-warm">
+          <span class="flex items-center gap-1.5 font-medium">
+            <span class="material-symbols-outlined text-gold-accent text-[18px]">local_shipping</span>
+            <span>Free Delivery across India on orders over ₹499!</span>
+          </span>
+        </div>
+        <div class="flex-1 overflow-y-auto p-5 space-y-3" id="cart-items-container"></div>
+        <div id="cart-empty-message" class="hidden flex-col items-center justify-center flex-1 p-8 text-center">
+          <span class="material-symbols-outlined text-5xl text-gray-300 mb-3">shopping_cart</span>
+          <p class="font-headline-sm text-lg text-deep-navy mb-1">Your cart is empty</p>
+          <a href="shop.html?category=badges" onclick="closeCartDrawer()" class="px-5 py-2.5 rounded-lg bg-sacred-crimson text-white text-xs font-bold uppercase tracking-wider">
+            Shop Christian Badges
+          </a>
+        </div>
+        <div id="cart-drawer-footer" class="p-5 border-t border-border-warm bg-parchment-base space-y-3">
+          <div class="space-y-1.5 text-sm">
+            <div class="flex justify-between text-on-surface-variant">
+              <span>Subtotal:</span>
+              <span id="cart-subtotal" class="font-semibold text-deep-navy">₹0</span>
+            </div>
+            <div class="flex justify-between text-on-surface-variant">
+              <span>Delivery:</span>
+              <span id="cart-shipping" class="font-semibold text-green-700">FREE</span>
+            </div>
+            <div class="flex justify-between text-base font-bold text-deep-navy pt-2 border-t border-border-warm">
+              <span>Grand Total:</span>
+              <span id="cart-grand-total">₹0</span>
+            </div>
+          </div>
+          <button onclick="checkoutCart()" class="w-full py-3.5 px-4 rounded-lg bg-deep-navy hover:bg-deep-navy-dark text-white font-semibold text-center text-sm shadow transition-colors flex items-center justify-center gap-2">
+            <span>Proceed to Checkout</span>
+            <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= CINEMA VIDEO PLAYER MODAL ================= -->
+  <div id="videoModal" class="fixed inset-0 z-50 hidden bg-black/80 backdrop-blur-md flex items-center justify-center p-4">
+    <div class="bg-deep-navy-dark rounded-2xl max-w-4xl w-full overflow-hidden shadow-2xl border border-white/10 flex flex-col">
+      <!-- Modal Top Bar -->
+      <div class="p-4 bg-deep-navy flex items-center justify-between text-white border-b border-white/10">
+        <div class="flex items-center gap-2 min-w-0">
+          <span class="material-symbols-outlined text-sacred-crimson">play_circle</span>
+          <h3 id="modalVideoTitle" class="font-headline-sm text-base truncate font-semibold">Video Message</h3>
+        </div>
+        <button onclick="closeVideoModal()" class="text-white/80 hover:text-white p-1">
+          <span class="material-symbols-outlined">close</span>
+        </button>
+      </div>
+
+      <!-- Responsive 16:9 Video Player Surface -->
+      <div class="relative w-full aspect-video bg-black flex items-center justify-center group overflow-hidden">
+        <img id="modalVideoPoster" src="" alt="Video Poster" class="absolute inset-0 w-full h-full object-cover opacity-60">
+        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+        
+        <!-- Live Playback Indicator -->
+        <div class="relative z-10 flex flex-col items-center text-center p-6 text-white">
+          <div class="w-20 h-20 rounded-full bg-sacred-crimson/90 text-white flex items-center justify-center shadow-2xl mb-4 animate-pulse">
+            <span class="material-symbols-outlined text-[48px]">play_arrow</span>
+          </div>
+          <h4 id="modalSpeakerName" class="font-headline-sm text-lg font-bold mb-1">Speaker</h4>
+          <p id="modalScriptureText" class="text-xs text-celestial-mist max-w-md">Scripture Meditation</p>
+          <span class="mt-4 px-3 py-1 rounded-full bg-white/20 text-xs backdrop-blur-sm">Simulated Full HD Stream</span>
+        </div>
+      </div>
+
+      <!-- Modal Bottom Actions -->
+      <div class="p-4 bg-deep-navy flex items-center justify-between flex-wrap gap-3 text-white text-xs">
+        <div class="flex items-center gap-3">
+          <span class="text-white/70">Audio: English &amp; Telugu</span>
+          <span>•</span>
+          <span class="text-gold-accent font-semibold">CCLI Licensed</span>
+        </div>
+        <div class="flex items-center gap-2">
+          <button onclick="window.showToast('Study notes downloaded!');" class="px-3 py-1.5 rounded bg-white/10 hover:bg-white/20 transition-colors flex items-center gap-1">
+            <span class="material-symbols-outlined text-[16px]">download</span> Notes
+          </button>
+          <button onclick="window.showToast('Video link copied to clipboard!');" class="px-3 py-1.5 rounded bg-sacred-crimson hover:bg-sacred-crimson-hover text-white transition-colors flex items-center gap-1 font-semibold">
+            <span class="material-symbols-outlined text-[16px]">share</span> Share
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= MAIN CONTENT ================= -->
+  <main class="w-full min-h-screen py-8 md:py-12">
+    <div class="max-w-7xl mx-auto px-4 md:px-8">
+      
+      <!-- Header Section -->
+      <section class="mb-8">
+        <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-6 pb-6 border-b border-border-warm/60">
+          <div class="max-w-3xl">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface-container text-secondary text-xs font-bold uppercase tracking-wider mb-3">
+              <span class="material-symbols-outlined text-[16px]">play_circle</span>
+              <span>Multimedia Sanctuary</span>
+              <span class="inline-block w-1.5 h-1.5 rounded-full bg-sacred-crimson"></span>
+              <span class="text-deep-navy font-semibold">Daily &amp; Weekly Broadcasts</span>
+            </div>
+            <h1 class="font-headline-lg text-3xl sm:text-4xl lg:text-5xl text-deep-navy tracking-tight font-bold mb-3">
+              Videos &amp; Sermons: Fuel for the Soul
+            </h1>
+            <p class="text-base text-on-surface-variant max-w-2xl leading-relaxed">
+              Strengthen your spiritual walk with anointed video sermons, 60-second morning spark devotionals, topical verse-by-verse teachings, and heartfelt Telugu messages (తెలుగు క్రైస్తవ సందేశాలు).
+            </p>
+          </div>
+
+          <!-- Quick Metrics Pill -->
+          <div class="flex items-center gap-4 p-3 bg-surface-container-lowest rounded-xl shadow-xs border border-border-warm shrink-0">
+            <div class="flex items-center gap-2.5 pr-4 border-r border-border-warm">
+              <div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-secondary">
+                <span class="material-symbols-outlined text-[20px]">ondemand_video</span>
+              </div>
+              <div>
+                <span class="font-headline-sm text-lg text-deep-navy font-bold block leading-none">240+</span>
+                <span class="text-[10px] text-outline font-bold uppercase tracking-wider">Video Messages</span>
+              </div>
+            </div>
+            <div class="flex items-center gap-2.5">
+              <div class="w-10 h-10 rounded-lg bg-celestial-mist flex items-center justify-center text-celestial-sky">
+                <span class="material-symbols-outlined text-[20px]">translate</span>
+              </div>
+              <div>
+                <span class="font-headline-sm text-lg text-deep-navy font-bold block leading-none">తెలుగు / EN</span>
+                <span class="text-[10px] text-outline font-bold uppercase tracking-wider">Bilingual Audio</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Filter & Search Command Strip -->
+      <section class="mb-10">
+        <div class="bg-surface-container-lowest p-3 rounded-2xl shadow-xs border border-border-warm flex flex-col xl:flex-row gap-3 items-stretch xl:items-center justify-between">
+          
+          <!-- Search Input -->
+          <div class="relative flex-1 min-w-[280px]">
+            <span class="material-symbols-outlined absolute left-3.5 top-1/2 -translate-y-1/2 text-outline text-[20px]">search</span>
+            <input id="sermonSearch" oninput="filterVideos()" placeholder="Search by speaker, scripture (e.g. Psalm 23), or topic..." type="text" class="w-full pl-11 pr-4 py-2.5 rounded-xl bg-parchment-base text-xs sm:text-sm text-on-surface border border-border-warm focus:outline-none focus:ring-1 focus:ring-secondary placeholder:text-outline">
+          </div>
+
+          <!-- Category Filter Pills -->
+          <div class="flex items-center gap-1.5 overflow-x-auto pb-1 xl:pb-0 scrollbar-none" id="categoryChips">
+            <button onclick="setVideoFilter('all', this)" class="filter-chip active-filter px-3.5 py-2 rounded-lg bg-deep-navy text-on-primary text-xs font-semibold whitespace-nowrap shadow-xs">
+              All Messages
+            </button>
+            <button onclick="setVideoFilter('daily-2min', this)" class="filter-chip px-3.5 py-2 rounded-lg bg-surface-container-low text-on-surface-variant hover:text-deep-navy text-xs font-semibold whitespace-nowrap">
+              Daily 2-Min Word
+            </button>
+            <button onclick="setVideoFilter('sermons', this)" class="filter-chip px-3.5 py-2 rounded-lg bg-surface-container-low text-on-surface-variant hover:text-deep-navy text-xs font-semibold whitespace-nowrap">
+              In-Depth Sermons
+            </button>
+            <button onclick="setVideoFilter('telugu', this)" class="filter-chip px-3.5 py-2 rounded-lg bg-surface-container-low text-on-surface-variant hover:text-deep-navy text-xs font-semibold whitespace-nowrap">
+              తెలుగు సందేశాలు
+            </button>
+            <button onclick="setVideoFilter('kids', this)" class="filter-chip px-3.5 py-2 rounded-lg bg-surface-container-low text-on-surface-variant hover:text-deep-navy text-xs font-semibold whitespace-nowrap">
+              Kids Stories
+            </button>
+            <button onclick="setVideoFilter('worship', this)" class="filter-chip px-3.5 py-2 rounded-lg bg-surface-container-low text-on-surface-variant hover:text-deep-navy text-xs font-semibold whitespace-nowrap">
+              Worship Moments
+            </button>
+          </div>
+
+          <!-- Language Selector -->
+          <div class="flex items-center p-1 bg-surface-container-low rounded-lg shrink-0 border border-border-warm/40">
+            <button onclick="setVideoLang('all', this)" class="lang-toggle px-3 py-1 rounded text-xs font-bold uppercase bg-surface-container-lowest text-deep-navy shadow-xs">All</button>
+            <button onclick="setVideoLang('en', this)" class="lang-toggle px-3 py-1 rounded text-xs font-semibold uppercase text-on-surface-variant hover:text-deep-navy">EN</button>
+            <button onclick="setVideoLang('te', this)" class="lang-toggle px-3 py-1 rounded text-xs font-semibold uppercase text-on-surface-variant hover:text-deep-navy">తెలుగు</button>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Featured Video Spotlight: Large Cinema Showcase -->
+      <section class="mb-14">
+        <div class="relative bg-surface-container-lowest rounded-2xl shadow-lg border border-border-warm overflow-hidden">
+          <div class="h-1.5 w-full bg-gradient-to-r from-sacred-crimson via-gold-accent to-secondary"></div>
+          
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-0">
+            <!-- Cinema Player Thumbnail Container -->
+            <div class="lg:col-span-7 relative min-h-[340px] sm:min-h-[420px] flex items-center justify-center overflow-hidden group">
+              <div class="bg-cover bg-center absolute inset-0 transition-transform duration-700 ease-out group-hover:scale-105" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDTUH4jJWnPYz9BV80Hsq-9jOlZ8cjWHM6glmB-jBxte3dcnwF36M7s35548uDBkZ-8QjFIz80-oqUWNgqyLbo5hDf-uxSZU4HfZilopXQBa35kcGGxjGvo_7XLiBEY2nNWxKRmJr5y66bn2VOWEyUhi9jbkSNFqVlbs-t8cxap5QtV6fO4trN4J9UXfjJS4X9LCuvL3lvDdfvvlo-nyFTNpF2VT9tHPYs9BdWZ5tg')"></div>
+              <div class="absolute inset-0 bg-gradient-to-t from-deep-navy-dark/90 via-deep-navy-dark/40 to-transparent"></div>
+              
+              <!-- Live / Featured Pill Top Left -->
+              <div class="absolute top-4 left-4 flex items-center gap-2">
+                <span class="px-2.5 py-1 rounded bg-sacred-crimson text-on-primary font-bold text-[10px] uppercase tracking-wider flex items-center gap-1.5 shadow-md">
+                  <span class="w-2 h-2 rounded-full bg-white animate-pulse"></span>
+                  Featured Sermon
+                </span>
+                <span class="px-2.5 py-1 rounded bg-deep-navy/80 text-white font-bold text-[10px] backdrop-blur-sm">
+                  HD 1080p
+                </span>
+              </div>
+
+              <!-- Duration Pill Bottom Right -->
+              <div class="absolute bottom-4 right-4 px-2.5 py-1 rounded-md bg-deep-navy-dark/90 text-white text-xs font-semibold flex items-center gap-1.5 backdrop-blur-sm">
+                <span class="material-symbols-outlined text-[15px] text-celestial-sky">schedule</span>
+                <span>24:15</span>
+              </div>
+
+              <!-- Central Play Button Trigger -->
+              <button onclick="playFeaturedVideo()" class="relative z-10 w-20 h-20 rounded-full bg-sacred-crimson text-on-primary flex items-center justify-center shadow-xl transition-all duration-300 hover:scale-110 hover:bg-sacred-crimson-hover focus:outline-none" id="featuredPlayBtn">
+                <span class="material-symbols-outlined text-[40px] translate-x-0.5" style="font-variation-settings: 'FILL' 1;">play_arrow</span>
+                <div class="absolute -inset-2 rounded-full bg-sacred-crimson/25 animate-ping -z-10"></div>
+              </button>
+            </div>
+
+            <!-- Spotlight Information & Metadata -->
+            <div class="lg:col-span-5 p-6 sm:p-8 flex flex-col justify-between bg-surface-container-lowest">
+              <div>
+                <div class="flex items-center gap-2 text-secondary text-xs font-bold uppercase tracking-wider mb-2">
+                  <span class="material-symbols-outlined text-[16px]">menu_book</span>
+                  <span>Scripture Meditation: Psalm 23:4</span>
+                </div>
+                <h2 class="font-headline-md text-xl sm:text-2xl text-deep-navy mb-2 font-semibold leading-tight">
+                  Walking in Faith Through Life's Darkest Valleys
+                </h2>
+                <div class="flex items-center gap-2 text-on-surface-variant text-xs mb-4">
+                  <span class="font-bold text-deep-navy">Sis. Udaysree Gurajada</span>
+                  <span>•</span>
+                  <span>DailyBibleFuel Broadcast</span>
+                  <span>•</span>
+                  <span class="text-gold-accent font-semibold">Bilingual Message</span>
+                </div>
+
+                <!-- Bilingual Summary Tab Card -->
+                <div class="p-4 rounded-xl bg-parchment-base mb-6 border border-border-warm shadow-inner">
+                  <div class="flex items-center justify-between mb-2">
+                    <span class="text-xs font-bold text-deep-navy uppercase tracking-wider">Key Insight</span>
+                    <span class="text-[11px] text-celestial-sky font-semibold">English &amp; Telugu</span>
+                  </div>
+                  <p class="text-xs sm:text-sm text-on-surface mb-2 leading-relaxed">
+                    "Even though I walk through the darkest valley, I will fear no evil, for You are with me." Discover how divine comfort transforms moments of deep isolation into intimate worship encounters.
+                  </p>
+                  <p class="text-xs sm:text-sm text-deep-navy font-medium leading-relaxed font-sans">
+                    "గాఢాంధకారపు లోయలో నేను సంచరించినను ఏ అపాయమునకు భయపడను; నీవు నాకు తోడై యుందువు." జీవిత సమస్యల నడుమ దేవుని శాంతి మరియు వాక్య శక్తి.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Action Buttons Bar -->
+              <div class="flex flex-wrap items-center gap-2 pt-2 border-t border-border-warm/60">
+                <button onclick="downloadStudyNotes('Walking in Faith Through Life Darkest Valleys')" class="inline-flex items-center justify-center gap-1.5 h-11 px-5 rounded-lg bg-deep-navy hover:bg-deep-navy-dark text-on-primary font-semibold text-xs shadow-xs transition-all">
+                  <span class="material-symbols-outlined text-[18px]">description</span>
+                  <span>Study Notes (PDF)</span>
+                </button>
+                <button onclick="toggleTranscript()" class="inline-flex items-center justify-center gap-1.5 h-11 px-4 rounded-lg bg-surface-container hover:bg-surface-container-high text-deep-navy font-semibold text-xs transition-all" id="toggleTranscriptBtn">
+                  <span class="material-symbols-outlined text-[18px]">article</span>
+                  <span>Transcript</span>
+                </button>
+                <a href="https://api.whatsapp.com/send?text=Watch%20this%20encouraging%20message:%20Walking%20in%20Faith%20Through%20Life's%20Darkest%20Valleys%20on%20DailyBibleFuel" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center w-11 h-11 rounded-lg bg-surface-container hover:bg-surface-container-high text-deep-navy transition-all" title="Share on WhatsApp">
+                  <span class="material-symbols-outlined text-[20px]">share</span>
+                </a>
+                <button onclick="window.showToast('Saved to Watch Later list!');" class="inline-flex items-center justify-center w-11 h-11 rounded-lg bg-surface-container hover:bg-surface-container-high text-deep-navy transition-all" title="Save for later">
+                  <span class="material-symbols-outlined text-[20px]">bookmark_border</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Interactive Transcript Drawer (Collapsible) -->
+      <section id="transcriptDrawer" class="mb-12 hidden">
+        <div class="bg-parchment-surface rounded-2xl p-6 md:p-8 border border-border-warm shadow-md">
+          <div class="flex items-center justify-between pb-4 border-b border-border-warm mb-4">
+            <div class="flex items-center gap-2">
+              <span class="material-symbols-outlined text-secondary">article</span>
+              <h3 class="font-headline-sm text-lg font-bold text-deep-navy">Video Transcript &amp; Sermon Study Outline</h3>
+            </div>
+            <button onclick="toggleTranscript()" class="text-on-surface-variant hover:text-deep-navy">
+              <span class="material-symbols-outlined">close</span>
+            </button>
+          </div>
+          <div class="space-y-4 text-xs sm:text-sm text-on-surface leading-relaxed max-h-96 overflow-y-auto pr-3">
+            <div class="p-3 bg-surface-container-low rounded-lg">
+              <span class="font-bold text-secondary">[00:00 - 05:15] Introduction: The Geography of the Soul</span>
+              <p class="mt-1">"Grace and peace to you in Jesus' mighty name. When David writes Psalm 23, he does not speak as a cloistered monk who was insulated from danger. He speaks as a shepherd and an outlaw who knew the rugged ravine of Judea..."</p>
+            </div>
+            <div class="p-3 bg-surface-container-low rounded-lg">
+              <span class="font-bold text-secondary">[05:16 - 12:40] The Hebrew Context: Gai Tzalmaveth (The Valley of Deep Darkness)</span>
+              <p class="mt-1">"The Hebrew phrasing here is not a poetic embellishment. It depicts a crevasse where midday sun never penetrates. Yet notice the shift in pronouns: David stops talking *about* God ('He leads me', 'He restores my soul') and begins talking *to* God ('for You are with me')..."</p>
+            </div>
+            <div class="p-3 bg-surface-container-low rounded-lg">
+              <span class="font-bold text-secondary">[12:41 - 24:15] Conclusion &amp; Prayer of Impartation</span>
+              <p class="mt-1">"Your rod and staff comfort me. Today, whatever trial whispers defeat, confess the everlasting covenant of Christ over your family. Let us bow our heads in prayer..."</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Video Messages Catalog Grid -->
+      <section class="mb-16">
+        <div class="flex items-center justify-between mb-6">
+          <h2 class="font-headline-sm text-2xl text-deep-navy font-bold">Latest Video Messages &amp; Reel Shorts</h2>
+          <span class="text-xs text-on-surface-variant">Showing <span id="video-count">6</span> broadcasts</span>
+        </div>
+
+        <div id="videoGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          
+          <!-- Card 1 -->
+          <article class="video-card bg-surface-container-lowest rounded-xl overflow-hidden shadow-xs hover:shadow-xl transition-all duration-300 border border-border-warm flex flex-col justify-between" data-category="daily-2min" data-lang="en">
+            <div class="relative h-48 bg-surface-container overflow-hidden group cursor-pointer" onclick="openVideoModal('Morning Manna: The Unfailing Grace of God', 'Pastor Paul Gurajada', 'Lamentations 3:22-23', 'https://lh3.googleusercontent.com/aida-public/AB6AXuBviZiGgOKVQtIOVslFG1iVbymKhrEmOD2HY-yn9Tb-kfXCvdu_cjH1M9_FZZm6C-hmDYiICAVz8g1vv8ntMlsxa6WY0CzSDAsI5LgMHs6CBTj66T9E_DYMs1rIEUBdFlCLnZJXRA1iLI_42TOnjvCkfcx6_UeuE3LrGDMY8da2rJXk3kNhfrDyvDJcANEv7qVu2Doq2B75ySWSzzd6bVlZzKnoyakBEcbs3L1Usy0')">
+              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBviZiGgOKVQtIOVslFG1iVbymKhrEmOD2HY-yn9Tb-kfXCvdu_cjH1M9_FZZm6C-hmDYiICAVz8g1vv8ntMlsxa6WY0CzSDAsI5LgMHs6CBTj66T9E_DYMs1rIEUBdFlCLnZJXRA1iLI_42TOnjvCkfcx6_UeuE3LrGDMY8da2rJXk3kNhfrDyvDJcANEv7qVu2Doq2B75ySWSzzd6bVlZzKnoyakBEcbs3L1Usy0" alt="Morning Manna" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+              <div class="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-colors flex items-center justify-center">
+                <div class="w-12 h-12 rounded-full bg-sacred-crimson text-white flex items-center justify-center shadow-lg transform group-hover:scale-110 transition-transform">
+                  <span class="material-symbols-outlined text-[28px]">play_arrow</span>
+                </div>
+              </div>
+              <span class="absolute top-3 left-3 px-2 py-0.5 rounded bg-deep-navy/80 text-white text-[10px] font-bold uppercase backdrop-blur-sm">Daily 2-Min</span>
+              <span class="absolute bottom-3 right-3 px-2 py-0.5 rounded bg-black/70 text-white text-[10px] font-semibold">02:30</span>
+            </div>
+            <div class="p-5 flex-1 flex flex-col justify-between">
+              <div>
+                <h3 class="font-headline-sm text-base text-deep-navy font-bold mb-1 hover:text-sacred-crimson transition-colors">
+                  Morning Manna: The Unfailing Grace of God
+                </h3>
+                <p class="text-xs text-on-surface-variant line-clamp-2 mb-3">
+                  Start your morning with a 2-minute spiritual spark on Lamentations 3:22-23. God's mercies are brand new every sunrise.
+                </p>
+              </div>
+              <div class="pt-3 border-t border-border-warm/60 flex items-center justify-between text-xs text-on-surface-variant">
+                <span class="font-semibold text-deep-navy">Pastor Paul Gurajada</span>
+                <span class="text-secondary font-bold">English</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="video-card bg-surface-container-lowest rounded-xl overflow-hidden shadow-xs hover:shadow-xl transition-all duration-300 border border-border-warm flex flex-col justify-between" data-category="sermons" data-lang="en">
+            <div class="relative h-48 bg-surface-container overflow-hidden group cursor-pointer" onclick="openVideoModal('Overcoming Anxiety: Biblical Strategies', 'Sis. Udaysree Gurajada', 'Philippians 4:6-7', 'https://lh3.googleusercontent.com/aida-public/AB6AXuAh-s81-FflQ4T9UaTPqxPVQhtHw8rO9oBK0vwmQiNIVp7vkLwykdLuCY8Kj7YAf9y9mkB9PeZYeMa053_4Bfihk76hXw0kwV6pp_9OBKuNdWeagOznlI2aCjMcc1FSnSZT4hfUdQOKQM_sLowYFy8wJXvQ4jqddl1bSHvIGHP2tWvDfGPmxpww3ghKqTRckIe_nNXTKq0OR53GGfZQHPcbCAuIRlaok6ShSn2qhQI')">
+              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuAh-s81-FflQ4T9UaTPqxPVQhtHw8rO9oBK0vwmQiNIVp7vkLwykdLuCY8Kj7YAf9y9mkB9PeZYeMa053_4Bfihk76hXw0kwV6pp_9OBKuNdWeagOznlI2aCjMcc1FSnSZT4hfUdQOKQM_sLowYFy8wJXvQ4jqddl1bSHvIGHP2tWvDfGPmxpww3ghKqTRckIe_nNXTKq0OR53GGfZQHPcbCAuIRlaok6ShSn2qhQI" alt="Overcoming Anxiety" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+              <div class="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-colors flex items-center justify-center">
+                <div class="w-12 h-12 rounded-full bg-sacred-crimson text-white flex items-center justify-center shadow-lg transform group-hover:scale-110 transition-transform">
+                  <span class="material-symbols-outlined text-[28px]">play_arrow</span>
+                </div>
+              </div>
+              <span class="absolute top-3 left-3 px-2 py-0.5 rounded bg-secondary/80 text-white text-[10px] font-bold uppercase backdrop-blur-sm">Sermon</span>
+              <span class="absolute bottom-3 right-3 px-2 py-0.5 rounded bg-black/70 text-white text-[10px] font-semibold">32:10</span>
+            </div>
+            <div class="p-5 flex-1 flex flex-col justify-between">
+              <div>
+                <h3 class="font-headline-sm text-base text-deep-navy font-bold mb-1 hover:text-sacred-crimson transition-colors">
+                  Overcoming Anxiety: Biblical Strategies
+                </h3>
+                <p class="text-xs text-on-surface-variant line-clamp-2 mb-3">
+                  Practical steps to exchange racing thoughts for the peace of Christ that transcends all human comprehension.
+                </p>
+              </div>
+              <div class="pt-3 border-t border-border-warm/60 flex items-center justify-between text-xs text-on-surface-variant">
+                <span class="font-semibold text-deep-navy">Sis. Udaysree Gurajada</span>
+                <span class="text-secondary font-bold">English</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 3: Telugu Message -->
+          <article class="video-card bg-surface-container-lowest rounded-xl overflow-hidden shadow-xs hover:shadow-xl transition-all duration-300 border border-border-warm flex flex-col justify-between" data-category="telugu" data-lang="te">
+            <div class="relative h-48 bg-surface-container overflow-hidden group cursor-pointer" onclick="openVideoModal('దేవుని నిరీక్షణ: కష్టాలలో విజయం (Hope in Hard Times)', 'Pastor Paul Gurajada', 'రోమీయులకు 8:28', 'https://lh3.googleusercontent.com/aida-public/AB6AXuB6Kh7JzZw2b-9QHP4fQe0r_Yde-XGbE0ETMj2IY1lgJzMrCmjzjeuwrgGipfGA7-ZmAj2GGOiTlXNFRKTe1lLys_hwgG5ZskwtO-MoBZhDXO_H43p-f_TARGrdxHFfaaHdN8dk9U2kQZ6RFLG3GmraB6dghm0Ams1xeN3Bbn5iR_xAhX8NNC2cytEfQJqaBW5eBSM9kwh4sPBZO2p1q-v2G00V8FczOL8uXkIBeQc')">
+              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuB6Kh7JzZw2b-9QHP4fQe0r_Yde-XGbE0ETMj2IY1lgJzMrCmjzjeuwrgGipfGA7-ZmAj2GGOiTlXNFRKTe1lLys_hwgG5ZskwtO-MoBZhDXO_H43p-f_TARGrdxHFfaaHdN8dk9U2kQZ6RFLG3GmraB6dghm0Ams1xeN3Bbn5iR_xAhX8NNC2cytEfQJqaBW5eBSM9kwh4sPBZO2p1q-v2G00V8FczOL8uXkIBeQc" alt="Telugu Gospel Message" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+              <div class="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-colors flex items-center justify-center">
+                <div class="w-12 h-12 rounded-full bg-sacred-crimson text-white flex items-center justify-center shadow-lg transform group-hover:scale-110 transition-transform">
+                  <span class="material-symbols-outlined text-[28px]">play_arrow</span>
+                </div>
+              </div>
+              <span class="absolute top-3 left-3 px-2 py-0.5 rounded bg-sacred-crimson text-white text-[10px] font-bold uppercase backdrop-blur-sm">తెలుగు సందేశం</span>
+              <span class="absolute bottom-3 right-3 px-2 py-0.5 rounded bg-black/70 text-white text-[10px] font-semibold">28:45</span>
+            </div>
+            <div class="p-5 flex-1 flex flex-col justify-between">
+              <div>
+                <h3 class="font-headline-sm text-base text-deep-navy font-bold mb-1 hover:text-sacred-crimson transition-colors font-sans">
+                  దేవుని నిరీక్షణ: కష్టాలలో విజయం
+                </h3>
+                <p class="text-xs text-on-surface-variant line-clamp-2 mb-3 font-sans">
+                  దేవుని ప్రేమించువారికి సమస్తమును మేలుకొరకే సమకూడి జరుగుచున్నవని మనము ఎరుగుదుము. రోమీయులకు 8:28 వాక్య సందేశం.
+                </p>
+              </div>
+              <div class="pt-3 border-t border-border-warm/60 flex items-center justify-between text-xs text-on-surface-variant">
+                <span class="font-semibold text-deep-navy">Pastor Paul Gurajada</span>
+                <span class="text-sacred-crimson font-bold">తెలుగు</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 4: Kids -->
+          <article class="video-card bg-surface-container-lowest rounded-xl overflow-hidden shadow-xs hover:shadow-xl transition-all duration-300 border border-border-warm flex flex-col justify-between" data-category="kids" data-lang="en">
+            <div class="relative h-48 bg-surface-container overflow-hidden group cursor-pointer" onclick="openVideoModal('David & Goliath: Courage for Little Hearts', 'DBF Kids Ministry', '1 Samuel 17', 'https://lh3.googleusercontent.com/aida-public/AB6AXuAqdEoTaKTRot6wi2Yqprqn_9nq6h4oQKN7qBgQHhor9BsVoQoTOm-dw6psJDuhVuiPRcfG-CIt9IvQwTYyBTwXKz7plFPtV8ofT2SHg6zthTZDMFXPWPh0Oqjy6DQbY2FDAjcIx5Zv1sE1_Kcw1sDvT6LnX5o452uWqOducK2_879YokTqntBUNGWG7fUxuU6J7xN9KzZqBek4JNTJhMwgqI9WQnSaBzwQfatTEx8')">
+              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuAqdEoTaKTRot6wi2Yqprqn_9nq6h4oQKN7qBgQHhor9BsVoQoTOm-dw6psJDuhVuiPRcfG-CIt9IvQwTYyBTwXKz7plFPtV8ofT2SHg6zthTZDMFXPWPh0Oqjy6DQbY2FDAjcIx5Zv1sE1_Kcw1sDvT6LnX5o452uWqOducK2_879YokTqntBUNGWG7fUxuU6J7xN9KzZqBek4JNTJhMwgqI9WQnSaBzwQfatTEx8" alt="Kids Story" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+              <div class="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-colors flex items-center justify-center">
+                <div class="w-12 h-12 rounded-full bg-sacred-crimson text-white flex items-center justify-center shadow-lg transform group-hover:scale-110 transition-transform">
+                  <span class="material-symbols-outlined text-[28px]">play_arrow</span>
+                </div>
+              </div>
+              <span class="absolute top-3 left-3 px-2 py-0.5 rounded bg-celestial-sky text-white text-[10px] font-bold uppercase backdrop-blur-sm">Kids Bible</span>
+              <span class="absolute bottom-3 right-3 px-2 py-0.5 rounded bg-black/70 text-white text-[10px] font-semibold">08:15</span>
+            </div>
+            <div class="p-5 flex-1 flex flex-col justify-between">
+              <div>
+                <h3 class="font-headline-sm text-base text-deep-navy font-bold mb-1 hover:text-sacred-crimson transition-colors">
+                  David &amp; Goliath: Courage for Little Hearts
+                </h3>
+                <p class="text-xs text-on-surface-variant line-clamp-2 mb-3">
+                  Delightful animated storytelling teaching children that no giant is bigger than our God. Includes scripture memory song.
+                </p>
+              </div>
+              <div class="pt-3 border-t border-border-warm/60 flex items-center justify-between text-xs text-on-surface-variant">
+                <span class="font-semibold text-deep-navy">DBF Kids Ministry</span>
+                <span class="text-secondary font-bold">English</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 5: Worship -->
+          <article class="video-card bg-surface-container-lowest rounded-xl overflow-hidden shadow-xs hover:shadow-xl transition-all duration-300 border border-border-warm flex flex-col justify-between" data-category="worship" data-lang="all">
+            <div class="relative h-48 bg-surface-container overflow-hidden group cursor-pointer" onclick="openVideoModal('Surrendered in Worship: Intimate Praise Hour', 'DBF Worship Collective', 'Bilingual Hymns & Hosanna', 'https://lh3.googleusercontent.com/aida-public/AB6AXuCbFmmZKyGAn870pcf0vUh0Pdai1DPdU5IKDnMwk0t2XK7MVexvBaCpWGIBzCmGY9CFl_kdtzbXK-Yi1QNaFa3tjIXrjd25c_AuOXXk7q9nvwK42JCAPGz6UqPmESlvl67UfUV0pt4p6IuD8XR2z-L_56jt5rFQrzG4-aBMaBJQ1nUtvV83kMpwNUEBz1o01vYvtZ-ZBjN1vcPDZJWJCYtjWFBPxDJi5p3PERVizs8')">
+              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCbFmmZKyGAn870pcf0vUh0Pdai1DPdU5IKDnMwk0t2XK7MVexvBaCpWGIBzCmGY9CFl_kdtzbXK-Yi1QNaFa3tjIXrjd25c_AuOXXk7q9nvwK42JCAPGz6UqPmESlvl67UfUV0pt4p6IuD8XR2z-L_56jt5rFQrzG4-aBMaBJQ1nUtvV83kMpwNUEBz1o01vYvtZ-ZBjN1vcPDZJWJCYtjWFBPxDJi5p3PERVizs8" alt="Worship Moment" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+              <div class="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-colors flex items-center justify-center">
+                <div class="w-12 h-12 rounded-full bg-sacred-crimson text-white flex items-center justify-center shadow-lg transform group-hover:scale-110 transition-transform">
+                  <span class="material-symbols-outlined text-[28px]">play_arrow</span>
+                </div>
+              </div>
+              <span class="absolute top-3 left-3 px-2 py-0.5 rounded bg-gold-accent text-white text-[10px] font-bold uppercase backdrop-blur-sm">Worship</span>
+              <span class="absolute bottom-3 right-3 px-2 py-0.5 rounded bg-black/70 text-white text-[10px] font-semibold">18:20</span>
+            </div>
+            <div class="p-5 flex-1 flex flex-col justify-between">
+              <div>
+                <h3 class="font-headline-sm text-base text-deep-navy font-bold mb-1 hover:text-sacred-crimson transition-colors">
+                  Surrendered in Worship: Intimate Praise Hour
+                </h3>
+                <p class="text-xs text-on-surface-variant line-clamp-2 mb-3">
+                  Acoustic worship set blending classic Andhra Christian hymns with heartfelt English devotion choruses.
+                </p>
+              </div>
+              <div class="pt-3 border-t border-border-warm/60 flex items-center justify-between text-xs text-on-surface-variant">
+                <span class="font-semibold text-deep-navy">DBF Worship Collective</span>
+                <span class="text-gold-accent font-bold">Bilingual</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 6: Expository -->
+          <article class="video-card bg-surface-container-lowest rounded-xl overflow-hidden shadow-xs hover:shadow-xl transition-all duration-300 border border-border-warm flex flex-col justify-between" data-category="sermons" data-lang="en">
+            <div class="relative h-48 bg-surface-container overflow-hidden group cursor-pointer" onclick="openVideoModal('Standing Firm in the Armor of God', 'Pastor Paul Gurajada', 'Ephesians 6:10-18', 'https://lh3.googleusercontent.com/aida-public/AB6AXuCJN0lPq5apG16iJt66zVsu7dlRqwdrHbxgDti_3uRMgsaG-2graU6D6G4qgmFo-GNKMZlYWM_s-3brxT8z6ewlvHpsBUkxOizt3YoTj62eqcRqg2rYEMl8G1qR7A4lLufn4tukNjli2BxUV-S4kVzwOq-hXnGsALjS9__FjTExLdvxRPurSu0vHQwzPsoqj9kw-U6K72FY4GnY_m9wXUQD2aqC_xhyNLZcRP8Gg00')">
+              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCJN0lPq5apG16iJt66zVsu7dlRqwdrHbxgDti_3uRMgsaG-2graU6D6G4qgmFo-GNKMZlYWM_s-3brxT8z6ewlvHpsBUkxOizt3YoTj62eqcRqg2rYEMl8G1qR7A4lLufn4tukNjli2BxUV-S4kVzwOq-hXnGsALjS9__FjTExLdvxRPurSu0vHQwzPsoqj9kw-U6K72FY4GnY_m9wXUQD2aqC_xhyNLZcRP8Gg00" alt="Armor of God" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+              <div class="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-colors flex items-center justify-center">
+                <div class="w-12 h-12 rounded-full bg-sacred-crimson text-white flex items-center justify-center shadow-lg transform group-hover:scale-110 transition-transform">
+                  <span class="material-symbols-outlined text-[28px]">play_arrow</span>
+                </div>
+              </div>
+              <span class="absolute top-3 left-3 px-2 py-0.5 rounded bg-secondary/80 text-white text-[10px] font-bold uppercase backdrop-blur-sm">Expository</span>
+              <span class="absolute bottom-3 right-3 px-2 py-0.5 rounded bg-black/70 text-white text-[10px] font-semibold">41:05</span>
+            </div>
+            <div class="p-5 flex-1 flex flex-col justify-between">
+              <div>
+                <h3 class="font-headline-sm text-base text-deep-navy font-bold mb-1 hover:text-sacred-crimson transition-colors">
+                  Standing Firm in the Armor of God
+                </h3>
+                <p class="text-xs text-on-surface-variant line-clamp-2 mb-3">
+                  Verse-by-verse expository breakdown of Ephesians 6: Shield of faith, helmet of salvation, and sword of the Spirit.
+                </p>
+              </div>
+              <div class="pt-3 border-t border-border-warm/60 flex items-center justify-between text-xs text-on-surface-variant">
+                <span class="font-semibold text-deep-navy">Pastor Paul Gurajada</span>
+                <span class="text-secondary font-bold">English</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- 60-Second Daily Reel Sparks Carousel -->
+      <section class="mb-14 bg-surface-container-low rounded-2xl p-6 sm:p-8 border border-border-warm">
+        <div class="flex items-center justify-between mb-6 flex-wrap gap-2">
+          <div>
+            <div class="flex items-center gap-1.5 text-sacred-crimson text-xs font-bold uppercase tracking-wider mb-1">
+              <span class="material-symbols-outlined text-[16px]">bolt</span>
+              <span>Daily Spiritual Sparks</span>
+            </div>
+            <h3 class="font-headline-sm text-xl text-deep-navy font-bold">60-Second Video Shorts</h3>
+          </div>
+          <span class="text-xs text-on-surface-variant">Quick morning nourishment for busy days</span>
+        </div>
+
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
+          <div onclick="openVideoModal('Spark 1: Peace in the Storm', 'Sis. Udaysree', 'Mark 4:39', 'https://lh3.googleusercontent.com/aida-public/AB6AXuAh-s81-FflQ4T9UaTPqxPVQhtHw8rO9oBK0vwmQiNIVp7vkLwykdLuCY8Kj7YAf9y9mkB9PeZYeMa053_4Bfihk76hXw0kwV6pp_9OBKuNdWeagOznlI2aCjMcc1FSnSZT4hfUdQOKQM_sLowYFy8wJXvQ4jqddl1bSHvIGHP2tWvDfGPmxpww3ghKqTRckIe_nNXTKq0OR53GGfZQHPcbCAuIRlaok6ShSn2qhQI')" class="aspect-[9/16] rounded-xl overflow-hidden relative cursor-pointer group shadow-xs">
+            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuAh-s81-FflQ4T9UaTPqxPVQhtHw8rO9oBK0vwmQiNIVp7vkLwykdLuCY8Kj7YAf9y9mkB9PeZYeMa053_4Bfihk76hXw0kwV6pp_9OBKuNdWeagOznlI2aCjMcc1FSnSZT4hfUdQOKQM_sLowYFy8wJXvQ4jqddl1bSHvIGHP2tWvDfGPmxpww3ghKqTRckIe_nNXTKq0OR53GGfZQHPcbCAuIRlaok6ShSn2qhQI" alt="Short 1" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex flex-col justify-end p-2.5 text-white">
+              <span class="text-[10px] font-bold text-sacred-crimson">0:58</span>
+              <p class="text-xs font-semibold leading-tight line-clamp-2">Peace in the Storm</p>
+            </div>
+          </div>
+
+          <div onclick="openVideoModal('Spark 2: Do Not Fear', 'Pastor Paul', 'Isaiah 41:10', 'https://lh3.googleusercontent.com/aida-public/AB6AXuBviZiGgOKVQtIOVslFG1iVbymKhrEmOD2HY-yn9Tb-kfXCvdu_cjH1M9_FZZm6C-hmDYiICAVz8g1vv8ntMlsxa6WY0CzSDAsI5LgMHs6CBTj66T9E_DYMs1rIEUBdFlCLnZJXRA1iLI_42TOnjvCkfcx6_UeuE3LrGDMY8da2rJXk3kNhfrDyvDJcANEv7qVu2Doq2B75ySWSzzd6bVlZzKnoyakBEcbs3L1Usy0')" class="aspect-[9/16] rounded-xl overflow-hidden relative cursor-pointer group shadow-xs">
+            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBviZiGgOKVQtIOVslFG1iVbymKhrEmOD2HY-yn9Tb-kfXCvdu_cjH1M9_FZZm6C-hmDYiICAVz8g1vv8ntMlsxa6WY0CzSDAsI5LgMHs6CBTj66T9E_DYMs1rIEUBdFlCLnZJXRA1iLI_42TOnjvCkfcx6_UeuE3LrGDMY8da2rJXk3kNhfrDyvDJcANEv7qVu2Doq2B75ySWSzzd6bVlZzKnoyakBEcbs3L1Usy0" alt="Short 2" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex flex-col justify-end p-2.5 text-white">
+              <span class="text-[10px] font-bold text-sacred-crimson">0:45</span>
+              <p class="text-xs font-semibold leading-tight line-clamp-2">Do Not Fear</p>
+            </div>
+          </div>
+
+          <div onclick="openVideoModal('Spark 3: God Hears Your Cry', 'Sis. Udaysree', 'Psalm 34:17', 'https://lh3.googleusercontent.com/aida-public/AB6AXuB6Kh7JzZw2b-9QHP4fQe0r_Yde-XGbE0ETMj2IY1lgJzMrCmjzjeuwrgGipfGA7-ZmAj2GGOiTlXNFRKTe1lLys_hwgG5ZskwtO-MoBZhDXO_H43p-f_TARGrdxHFfaaHdN8dk9U2kQZ6RFLG3GmraB6dghm0Ams1xeN3Bbn5iR_xAhX8NNC2cytEfQJqaBW5eBSM9kwh4sPBZO2p1q-v2G00V8FczOL8uXkIBeQc')" class="aspect-[9/16] rounded-xl overflow-hidden relative cursor-pointer group shadow-xs">
+            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuB6Kh7JzZw2b-9QHP4fQe0r_Yde-XGbE0ETMj2IY1lgJzMrCmjzjeuwrgGipfGA7-ZmAj2GGOiTlXNFRKTe1lLys_hwgG5ZskwtO-MoBZhDXO_H43p-f_TARGrdxHFfaaHdN8dk9U2kQZ6RFLG3GmraB6dghm0Ams1xeN3Bbn5iR_xAhX8NNC2cytEfQJqaBW5eBSM9kwh4sPBZO2p1q-v2G00V8FczOL8uXkIBeQc" alt="Short 3" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex flex-col justify-end p-2.5 text-white">
+              <span class="text-[10px] font-bold text-sacred-crimson">0:52</span>
+              <p class="text-xs font-semibold leading-tight line-clamp-2">God Hears You</p>
+            </div>
+          </div>
+
+          <div onclick="openVideoModal('Spark 4: నూతన కృప (New Grace)', 'Pastor Paul', 'విలాపవాక్యములు 3:23', 'https://lh3.googleusercontent.com/aida-public/AB6AXuCbFmmZKyGAn870pcf0vUh0Pdai1DPdU5IKDnMwk0t2XK7MVexvBaCpWGIBzCmGY9CFl_kdtzbXK-Yi1QNaFa3tjIXrjd25c_AuOXXk7q9nvwK42JCAPGz6UqPmESlvl67UfUV0pt4p6IuD8XR2z-L_56jt5rFQrzG4-aBMaBJQ1nUtvV83kMpwNUEBz1o01vYvtZ-ZBjN1vcPDZJWJCYtjWFBPxDJi5p3PERVizs8')" class="aspect-[9/16] rounded-xl overflow-hidden relative cursor-pointer group shadow-xs">
+            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCbFmmZKyGAn870pcf0vUh0Pdai1DPdU5IKDnMwk0t2XK7MVexvBaCpWGIBzCmGY9CFl_kdtzbXK-Yi1QNaFa3tjIXrjd25c_AuOXXk7q9nvwK42JCAPGz6UqPmESlvl67UfUV0pt4p6IuD8XR2z-L_56jt5rFQrzG4-aBMaBJQ1nUtvV83kMpwNUEBz1o01vYvtZ-ZBjN1vcPDZJWJCYtjWFBPxDJi5p3PERVizs8" alt="Short 4" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex flex-col justify-end p-2.5 text-white">
+              <span class="text-[10px] font-bold text-sacred-crimson">0:59</span>
+              <p class="text-xs font-semibold leading-tight line-clamp-2 font-sans">నూతన కృప</p>
+            </div>
+          </div>
+
+          <div onclick="openVideoModal('Spark 5: Trusting His Timing', 'Sis. Udaysree', 'Ecclesiastes 3:11', 'https://lh3.googleusercontent.com/aida-public/AB6AXuCJN0lPq5apG16iJt66zVsu7dlRqwdrHbxgDti_3uRMgsaG-2graU6D6G4qgmFo-GNKMZlYWM_s-3brxT8z6ewlvHpsBUkxOizt3YoTj62eqcRqg2rYEMl8G1qR7A4lLufn4tukNjli2BxUV-S4kVzwOq-hXnGsALjS9__FjTExLdvxRPurSu0vHQwzPsoqj9kw-U6K72FY4GnY_m9wXUQD2aqC_xhyNLZcRP8Gg00')" class="aspect-[9/16] rounded-xl overflow-hidden relative cursor-pointer group shadow-xs">
+            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCJN0lPq5apG16iJt66zVsu7dlRqwdrHbxgDti_3uRMgsaG-2graU6D6G4qgmFo-GNKMZlYWM_s-3brxT8z6ewlvHpsBUkxOizt3YoTj62eqcRqg2rYEMl8G1qR7A4lLufn4tukNjli2BxUV-S4kVzwOq-hXnGsALjS9__FjTExLdvxRPurSu0vHQwzPsoqj9kw-U6K72FY4GnY_m9wXUQD2aqC_xhyNLZcRP8Gg00" alt="Short 5" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex flex-col justify-end p-2.5 text-white">
+              <span class="text-[10px] font-bold text-sacred-crimson">0:49</span>
+              <p class="text-xs font-semibold leading-tight line-clamp-2">Trust His Timing</p>
+            </div>
+          </div>
+
+          <div onclick="openVideoModal('Spark 6: Faith of a Mustard Seed', 'Pastor Paul', 'Matthew 17:20', 'https://lh3.googleusercontent.com/aida-public/AB6AXuAUn_66goxUlAknuRmVtWEp3nTuAReeALS7s5XT7nqRYtyP6sauBDuMEX1AwjfYVmeKw6hGM4Rpnftmu9gCbADf-rr0HIoDdDtKVTDdabytvPWJHeO8-Nj6w3pnNF4iTOCGS-LMU0x18B3ydcYfpv4Uhf8nuVRz2FTR93_09KXgZxtR_k6YYbT4qp7w9h5aA6NgjAAp6X5w1ExYYXdA-5gSeQ9tSeT9R2IdxDuc8po')" class="aspect-[9/16] rounded-xl overflow-hidden relative cursor-pointer group shadow-xs">
+            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuAUn_66goxUlAknuRmVtWEp3nTuAReeALS7s5XT7nqRYtyP6sauBDuMEX1AwjfYVmeKw6hGM4Rpnftmu9gCbADf-rr0HIoDdDtKVTDdabytvPWJHeO8-Nj6w3pnNF4iTOCGS-LMU0x18B3ydcYfpv4Uhf8nuVRz2FTR93_09KXgZxtR_k6YYbT4qp7w9h5aA6NgjAAp6X5w1ExYYXdA-5gSeQ9tSeT9R2IdxDuc8po" alt="Short 6" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex flex-col justify-end p-2.5 text-white">
+              <span class="text-[10px] font-bold text-sacred-crimson">0:50</span>
+              <p class="text-xs font-semibold leading-tight line-clamp-2">Mustard Seed Faith</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="w-full bg-surface-container-low text-on-surface-variant pt-16 pb-12 border-t border-border-warm/60">
+    <div class="max-w-7xl mx-auto px-4 md:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-12">
+        <div>
+          <div class="flex items-center gap-2 mb-3">
+            <img src="assets/images/logo.png" alt="Logo" class="h-6 w-auto">
+            <span class="font-headline-sm text-lg text-deep-navy font-bold">DailyBibleFuel</span>
+          </div>
+          <p class="text-xs text-on-surface-variant mb-4 leading-relaxed">Igniting daily devotion, scriptural wisdom, and worship adoration across generations in English and Telugu.</p>
+          <div class="flex items-center gap-2 text-xs font-semibold text-secondary">
+            <span class="material-symbols-outlined text-[16px]">call</span>
+            <a class="hover:underline" href="tel:+918019777939">+91 8019-777-939</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="font-bold text-xs text-deep-navy mb-3 uppercase tracking-wider">Devotionals</h4>
+          <ul class="space-y-2 text-xs">
+            <li><a class="hover:text-deep-navy transition-colors" href="daily-verse.html">Daily Verse</a></li>
+            <li><a class="text-sacred-crimson font-bold" href="videos-messages.html">Videos / Messages</a></li>
+            <li><a class="hover:text-deep-navy transition-colors" href="bible-quiz.html">Bible Quiz</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-bold text-xs text-deep-navy mb-3 uppercase tracking-wider">Worship</h4>
+          <ul class="space-y-2 text-xs">
+            <li><a class="hover:text-deep-navy transition-colors" href="english-worship-lyrics.html">English Worship Lyrics</a></li>
+            <li><a class="hover:text-deep-navy transition-colors" href="telugu-worship-lyrics.html">Telugu Worship Lyrics</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-bold text-xs text-deep-navy mb-3 uppercase tracking-wider">New Life &amp; Shop</h4>
+          <ul class="space-y-2 text-xs">
+            <li><a class="hover:text-deep-navy transition-colors" href="start-a-new-life-with-jesus.html">Start a New Life with Jesus</a></li>
+            <li><a class="hover:text-deep-navy transition-colors" href="shop.html">Shop Store</a></li>
+            <li><a class="hover:text-sacred-crimson font-semibold transition-colors pl-2" href="shop.html?category=badges">↳ Christian Badges</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-bold text-xs text-deep-navy mb-3 uppercase tracking-wider">Contact &amp; Support</h4>
+          <ul class="space-y-2 text-xs">
+            <li><a class="hover:text-deep-navy transition-colors" href="contact-us.html">Contact Us</a></li>
+            <li><a class="hover:text-deep-navy transition-colors" href="contact-us.html#prayer-form">Prayer &amp; Helpline</a></li>
+            <li><a class="hover:text-deep-navy transition-colors" href="contact-us.html#faq">FAQ &amp; Pastoral Care</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="pt-6 border-t border-border-warm flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-outline">
+        <p>© 2026 DailyBibleFuel. All rights reserved. Soli Deo Gloria.</p>
+        <p class="text-center sm:text-right">A sanctuary for contemplative faith, scripture meditation &amp; multilingual praise.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ================= JAVASCRIPT ================= -->
+  <script>
+    let currentCategory = 'all';
+    let currentLang = 'all';
+
+    function setVideoFilter(cat, btn) {
+      currentCategory = cat;
+      document.querySelectorAll('#categoryChips .filter-chip').forEach(b => {
+        b.className = 'filter-chip px-3.5 py-2 rounded-lg bg-surface-container-low text-on-surface-variant hover:text-deep-navy text-xs font-semibold whitespace-nowrap';
+      });
+      btn.className = 'filter-chip active-filter px-3.5 py-2 rounded-lg bg-deep-navy text-on-primary text-xs font-semibold whitespace-nowrap shadow-xs';
+      filterVideos();
+    }
+
+    function setVideoLang(lang, btn) {
+      currentLang = lang;
+      document.querySelectorAll('.lang-toggle').forEach(b => {
+        b.className = 'lang-toggle px-3 py-1 rounded text-xs font-semibold uppercase text-on-surface-variant hover:text-deep-navy';
+      });
+      btn.className = 'lang-toggle px-3 py-1 rounded text-xs font-bold uppercase bg-surface-container-lowest text-deep-navy shadow-xs';
+      filterVideos();
+    }
+
+    function filterVideos() {
+      const query = document.getElementById('sermonSearch').value.toLowerCase().trim();
+      const cards = document.querySelectorAll('.video-card');
+      let visible = 0;
+
+      cards.forEach(card => {
+        const cat = card.getAttribute('data-category');
+        const lang = card.getAttribute('data-lang');
+        const text = card.textContent.toLowerCase();
+
+        const matchCat = currentCategory === 'all' || cat === currentCategory;
+        const matchLang = currentLang === 'all' || lang === currentLang || lang === 'all';
+        const matchQuery = !query || text.includes(query);
+
+        if (matchCat && matchLang && matchQuery) {
+          card.style.display = 'flex';
+          visible++;
+        } else {
+          card.style.display = 'none';
+        }
+      });
+
+      document.getElementById('video-count').textContent = visible;
+    }
+
+    function toggleTranscript() {
+      const drawer = document.getElementById('transcriptDrawer');
+      drawer.classList.toggle('hidden');
+      if (!drawer.classList.contains('hidden')) {
+        drawer.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+
+    function downloadStudyNotes(title) {
+      window.showToast(`Generating Study Outline PDF for "${title}"...`);
+      setTimeout(() => {
+        window.showToast('Study Notes PDF ready for download!', 'success');
+      }, 1000);
+    }
+
+    function playFeaturedVideo() {
+      openVideoModal(
+        "Walking in Faith Through Life's Darkest Valleys",
+        "Sis. Udaysree Gurajada",
+        "Psalm 23:4 • DailyBibleFuel Broadcast",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuDTUH4jJWnPYz9BV80Hsq-9jOlZ8cjWHM6glmB-jBxte3dcnwF36M7s35548uDBkZ-8QjFIz80-oqUWNgqyLbo5hDf-uxSZU4HfZilopXQBa35kcGGxjGvo_7XLiBEY2nNWxKRmJr5y66bn2VOWEyUhi9jbkSNFqVlbs-t8cxap5QtV6fO4trN4J9UXfjJS4X9LCuvL3lvDdfvvlo-nyFTNpF2VT9tHPYs9BdWZ5tg"
+      );
+    }
+
+    function openVideoModal(title, speaker, scripture, poster) {
+      document.getElementById('modalVideoTitle').textContent = title;
+      document.getElementById('modalSpeakerName').textContent = speaker;
+      document.getElementById('modalScriptureText').textContent = scripture;
+      document.getElementById('modalVideoPoster').src = poster;
+      
+      const modal = document.getElementById('videoModal');
+      modal.classList.remove('hidden');
+      document.body.style.overflow = 'hidden';
+      window.showToast(`Loading: ${title}`);
+    }
+
+    function closeVideoModal() {
+      const modal = document.getElementById('videoModal');
+      modal.classList.add('hidden');
+      document.body.style.overflow = '';
+    }
+  </script>
+
+  <script src="assets/js/common.js"></script>
+  <script src="assets/js/live-sync.js"></script>
+</body>
+</html>

@@ -1,0 +1,184 @@
+/* DailyBibleFuel Custom Design System Styles */
+/* Import Google Fonts Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* Apply Poppins font for the entire website */
+*, html, body, h1, h2, h3, h4, h5, h6, p, span, a, button, input, textarea, select, label, blockquote, div, article, section, header, footer, nav, aside, main {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+/* Preserve Material Symbols Outlined Icon Font */
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined' !important;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  display: inline-block;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Authentic Telugu text styling with Poppins fallback */
+.font-telugu {
+  font-family: 'Noto Sans Telugu', 'Poppins', sans-serif !important;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  body {
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+}
+
+/* Custom Refined Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FAF8F5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c3c6d0;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #163A63;
+}
+
+/* Reader Tone Themes for Devotional Study */
+body.tone-sepia {
+  background-color: #F4EFE6 !important;
+  color: #382F24 !important;
+}
+
+body.tone-sepia .bg-parchment-base {
+  background-color: #F4EFE6 !important;
+}
+
+body.tone-sepia .bg-parchment-surface,
+body.tone-sepia .bg-surface-container-lowest {
+  background-color: #FAF6ED !important;
+  border-color: #E2DAC8 !important;
+}
+
+body.tone-sepia .text-deep-navy,
+body.tone-sepia .text-primary {
+  color: #3D2B1F !important;
+}
+
+body.tone-dark {
+  background-color: #0E1724 !important;
+  color: #E2EFF8 !important;
+}
+
+body.tone-dark .bg-parchment-base,
+body.tone-dark .bg-surface-container-low {
+  background-color: #0E1724 !important;
+}
+
+body.tone-dark .bg-parchment-surface,
+body.tone-dark .bg-surface-container-lowest {
+  background-color: #162235 !important;
+  border-color: #24354F !important;
+  color: #E2EFF8 !important;
+}
+
+body.tone-dark .text-deep-navy,
+body.tone-dark .text-primary,
+body.tone-dark .text-on-surface {
+  color: #F0F6FC !important;
+}
+
+body.tone-dark .text-on-surface-variant {
+  color: #9FB2C8 !important;
+}
+
+/* Font Sizing Modifier */
+.font-size-sm { font-size: 15px !important; line-height: 26px !important; }
+.font-size-md { font-size: 18px !important; line-height: 30px !important; }
+.font-size-lg { font-size: 21px !important; line-height: 34px !important; }
+.font-size-xl { font-size: 24px !important; line-height: 38px !important; }
+
+/* Font Family Modifier */
+.font-mode-serif { font-family: 'Poppins', Georgia, serif !important; }
+.font-mode-sans { font-family: 'Poppins', system-ui, sans-serif !important; }
+
+/* Dropdown Animation */
+.nav-dropdown {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(8px);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.group:hover .nav-dropdown,
+.nav-dropdown.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+/* Modal and Drawer Transitions */
+.drawer-backdrop {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.drawer-backdrop.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.drawer-content {
+  transform: translateX(100%);
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.drawer-backdrop.open .drawer-content {
+  transform: translateX(0);
+}
+
+/* Flip Card Animation */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.transform-style-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+/* Print Utilities */
+@media print {
+  header, footer, .no-print, button, #scrubber-bar, .drawer-backdrop {
+    display: none !important;
+  }
+  
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+  
+  main {
+    padding-top: 0 !important;
+  }
+}

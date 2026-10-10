@@ -1,0 +1,22 @@
+{
+  "name": "dailybiblefuel-web",
+  "version": "1.0.0",
+  "description": "DailyBibleFuel - Responsive Christian Devotional, Multilingual Worship, Bible Quiz, and Faith Resources Website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "serve": "node server.js"
+  },
+  "keywords": [
+    "dailybiblefuel",
+    "devotionals",
+    "worship-lyrics",
+    "telugu-christian-songs",
+    "christian-badges",
+    "bible-quiz",
+    "faith-resources"
+  ],
+  "author": "DailyBibleFuel Ministry",
+  "license": "ISC"
+}
